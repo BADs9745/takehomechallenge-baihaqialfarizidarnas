@@ -1,36 +1,36 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Take Home Challenge bt Baihaqi Alfarizi Darnas
 
-## Getting Started
+## <a name="introduction"></a> Introduction :
+So this is my take home project challenge that i made with Next JS the React JS framework for the App Router. I know this project is not impeccable project cause this tech i just learn from few month ago.  But i hope you can see my effort and my progress.  I will explain some feature of this project. 
 
-First, run the development server:
+## Table of Contents
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- [Introduction](#introduction)
+- [Features](#features)
+- [Libraries](#libraries)
+- [Project Structure](#project-structures)
+- [APK Link](#apk-link)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## <a name="features"></a> Features :
+You may list what feature you created, example :
+- Story List
+- Add Story
+- Story Detail
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## <a name="libraries"></a> Libraries :
+You may list what libraries you used in this project, example :
+- Next JS (React JS Framework)
+- Shadcn UI
+- Prisma ORM
+- Zod 
+- sqlite
 
-## Learn More
+## <a name="project-structures"></a> Project Structure :
+* `fonts`
+* `stories`
+* `component`
+* `lib`
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## <a name="apk-link"></a> Website URL :
+Attach the link of your deployed project or youtube link here

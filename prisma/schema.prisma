@@ -1,0 +1,50 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
+// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = "file:./data.db"
+}
+
+model Story {
+  id         Int       @id @default(autoincrement())
+  title      String
+  author     String
+  synopsis   String
+  category   String
+  cover      String?
+  tags       Tag[]
+  status     String
+  chapters   Chapter[]
+  createdAt  DateTime  @default(now())
+  updatedAt  DateTime  @updatedAt
+  Category   Category? @relation(fields: [categoryId], references: [id])
+  categoryId Int?
+}
+
+model Tag {
+  id    Int     @id @default(autoincrement())
+  name  String
+  story Story[]
+}
+
+model Category {
+  id    Int     @id @default(autoincrement())
+  name  String
+  story Story[]
+}
+
+model Chapter {
+  id      Int    @id @default(autoincrement())
+  title   String
+  content String
+  storyId Int
+  story   Story? @relation(fields: [storyId], references: [id])
+}
