@@ -33,4 +33,4 @@ You may list what libraries you used in this project, example :
 * `lib`
 
 ## <a name="apk-link"></a> Website URL :
-Attach the link of your deployed project or youtube link here
+https://vercel.live/link/takehomechallenge-baihaqialfarizidarnas.vercel.app
